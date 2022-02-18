@@ -1,7 +1,6 @@
 <script>
+	const apiKey = import.meta.env.VITE_API_KEY;
 	import axios from 'axios';
-	const apiKey = 'a241823ed6a69385042a9bfb157c5e52';
-	const mapKey = 'XuoWx8kQ7DE7_M1Z9QVrc5u3I5Fij9CssQGfc336wt8';
 	let loading = false;
 	let city;
 	let temp;
